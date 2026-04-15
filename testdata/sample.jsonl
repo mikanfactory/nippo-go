@@ -1,0 +1,8 @@
+{"type":"file-history-snapshot","messageId":"x","snapshot":{},"timestamp":"2026-04-05T10:00:00.000Z"}
+{"type":"user","sessionId":"sess-1","cwd":"/Users/alice/code/project-a","gitBranch":"main","timestamp":"2026-04-05T10:00:00.000Z","message":{"content":"refactor this function to use async"}}
+{"type":"user","sessionId":"sess-1","cwd":"/Users/alice/code/project-a","gitBranch":"main","timestamp":"2026-04-05T10:01:00.000Z","message":{"content":[{"type":"text","text":"let's use tokio instead of smol"}]}}
+{"type":"assistant","sessionId":"sess-1","cwd":"/Users/alice/code/project-a","gitBranch":"main","timestamp":"2026-04-05T10:02:00.000Z","message":{"content":[{"type":"text","text":"ok"},{"type":"tool_use","name":"Read","input":{"file_path":"/tmp/x.rs"}},{"type":"tool_use","name":"Grep","input":{"pattern":"async","path":"/tmp"}}],"usage":{"input_tokens":100,"output_tokens":50}}}
+{"type":"progress","data":"ignored","timestamp":"2026-04-05T10:03:00.000Z"}
+{"type":"user","sessionId":"sess-1","cwd":"/Users/alice/code/project-a","timestamp":"2026-04-05T10:04:00.000Z","message":{"content":[{"type":"tool_result","content":"done"}]}}
+this is not valid json and should be skipped
+{"type":"user","sessionId":"sess-1","cwd":"/Users/alice/code/project-a","timestamp":"2020-01-01T00:00:00.000Z","message":{"content":"old entry outside range"}}
