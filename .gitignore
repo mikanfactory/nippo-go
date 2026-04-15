@@ -1,0 +1,9 @@
+# Build output
+nippo
+
+# Go workspace
+go.work
+go.work.sum
+
+# OS
+.DS_Store
